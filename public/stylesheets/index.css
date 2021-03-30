@@ -15,7 +15,7 @@ body {
 }
 .banner {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/public/images/lake.jpg) center ;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/lake.jpg) center ;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -231,7 +231,10 @@ body {
 .about_area .name_card .left .text {
     max-width: 250px;
 }
-
+.about_area .name_card .left .fa-envelope,
+.about_area .name_card .left .fa-phone {
+margin-right: 10px;
+}
 .about_area .name_card .left .text .btn_group .button {
     width: 70px;
     display: inline-block;
@@ -292,5 +295,32 @@ body {
     .banner .title {
         font-size: 32px;
         right: calc(50% - 190px);
+    }
+    .about_area .bg_mark {
+        position: absolute;
+        top: 10%;
+        left: -10%;
+        font-size: 200px;
+        color: rgba(0,0,0,0.05);
+    }
+    .about_area .name_card {
+        /* margin: 50px 100px; */
+        padding: 10px 30px;
+    }
+    .about_area .name_card .left .pic {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .about_area .name_card .left .text p {
+        font-size: 0.9rem;
+    }
+    .about_area .name_card .left .fa-envelope,
+    .about_area .name_card .left .fa-phone {
+        margin-right: 5px;
+}
+    .about_area .name_card .right {
+        margin-left: 5px;
     }
 }

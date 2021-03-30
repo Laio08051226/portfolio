@@ -15,7 +15,7 @@ body {
 }
 .banner {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/lake.jpg) center ;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/lake.jpg') center ;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -296,6 +296,7 @@ margin-right: 10px;
         font-size: 32px;
         right: calc(50% - 190px);
     }
+
     .about_area .bg_mark {
         position: absolute;
         top: 10%;

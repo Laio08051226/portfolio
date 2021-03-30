@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laio的個人作品集</title>
+    <link rel="stylesheet" href="./public/stylesheets/bootstrap.css"/>
+    <link rel="stylesheet" href="./public/stylesheets/normalize.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./index.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+</head>
+<body>
+    <!-- <main> -->
+        <main id="container">
+            <div class="banner">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">Laio</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link area1" aria-current="page" href="#">首頁</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link area2" href="#project_area">專案</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link area3" href="#practice_area" tabindex="-1" aria-disabled="true">練習作品</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link area4" href="#about_area">關於我</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </nav>
+                <h3 class="title animate__animated animate__slideInDown">Welcome to my Portfolio</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                </svg>
+            </div>
+
+            <!-- project_area -->
+            <!-- project_1 -->
+            <div class="project_area" id="project_area">
+                <div class="project" >
+                    <h2>專案介紹</h2>
+                    <div class="wrapper d-flex justify-content-evenly flex-wrap">
+                        <div class="project_box">
+                            <figure>
+                                <img src="./public/images/garden.gif" alt="">
+                            </figure>
+                            <div class="text d-flex justify-content-between">
+                                <span>資策會專題: 植園 Gargen</span>
+                                <div class="icon_group">
+                                    <!-- <a class="icon"href="http://">
+                                        <i class="fas fa-link" title="直接看!" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a> -->
+                                    <a class="icon" href="https://github.com/werfrontendz0129/Final" target="_blank">
+                                        <i class="fab fa-github" title="Github原始碼" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>5人小組所製作的結訓專題，個人負責課程部分</p>
+                                <ol>
+                                    <li>前端:React框架</li>
+                                    <li>後端:Node.js</li>
+                                    <li>資料庫:MongoDB</li>
+                                    <li>套件:AOS、Email.js、Sweetalert2</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- project_2 -->
+                        <div class="project_box">
+                            <figure>
+                                <img src="./public/images/back.png" alt="">
+                            </figure>
+                            <div class="text d-flex justify-content-between">
+                                <span>期中專題: 後台系統製作</span>
+                                <div class="icon_group">
+                                    <!-- <a class="icon"href="http://">
+                                        <i class="fas fa-link" title="直接看!" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a> -->
+                                    <a class="icon" href="https://github.com/Laio08051226/Midterm/tree/main/pages/Lessoning" target="_black">
+                                        <i class="fab fa-github" title="Github原始碼" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>期中的後台系統製作</p>
+                                <ol>
+                                    <li>前端:Bootstrap、jQuery、Sweetalert2</li>
+                                    <li>後端:PHP</li>
+                                    <li>資料庫:MySQL</li>
+                                    <li>功能:CRUD、批次刪除、搜尋</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- project_3 -->
+                        <!-- <div class="project_box">
+                            <figure>
+                                <img src="https://cdn.pixabay.com/photo/2021/01/05/06/40/boat-5889919__340.png" alt="">
+                            </figure>
+                            <div class="text d-flex justify-content-between">
+                                <span>個人專案: 美食蒐藏清單!</span>
+                                <div class="icon_group">
+                                    <a class="icon"href="http://">
+                                        <i class="fas fa-link" title="直接看!" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                    <a class="icon" href="http://">
+                                        <i class="fab fa-github" title="Github原始碼" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>能蒐藏自己喜愛的餐廳或小店!</p>
+                                <ol>
+                                    <li>前端:Bootstrap、jQuery、Sweetalert2</li>
+                                    <li>後端:PHP</li>
+                                    <li>資料庫:MySQL</li>
+                                    <li>功能:CRUD、批次刪除、搜尋</li>
+                                </ol>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="practice_area" id="practice_area">
+                <!-- practice_1 -->
+                <div class="practice">
+                    <h2>練習作品</h2>
+                    <div class="wrapper">
+                        <div class="practice_box">
+                            <div class="pic">
+                                <img src="./public/images/css切版練習作業.gif" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>切版練習</h3>
+                                <p>無使用任何的套件，純粹手刻出版型加上RWD響應式呈現網站的web版和mobile版。</p>
+                                <!-- <div class="icon_group">
+                                    <a class="icon"href="http://">
+                                        <i class="fas fa-link" title="直接看!" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                    <a class="icon" href="http://">
+                                        <i class="fab fa-github" title="Github原始碼" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="practice_box">
+                            <div class="pic">
+                                <img src="./public/images/flip_card.gif" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>jQuery翻牌遊戲</h3>
+                                <p>運用jQuery技術做出以神奇寶貝為主題的翻牌小遊戲，可無限暢玩。</p>
+                                <div class="icon_group">
+                                    <a class="icon"href="https://laio08051226.github.io/iii-practice-works/works/flip_card/" target="_blank">
+                                        <i class="fas fa-link" title="直接看!" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                    <a class="icon" href="https://github.com/Laio08051226/iii-practice-works/blob/main/works/flip_card/index.html" target="_blank">
+                                        <i class="fab fa-github" title="Github原始碼" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="practice_box">
+                            <div class="pic">
+                                <img src="./public/images/cart.gif" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>jQuery購物車</h3>
+                                <p>使用jQuery技術來模擬購物車小記功能。</p>
+                                <div class="icon_group">
+                                    <a class="icon"href="https://laio08051226.github.io/iii-practice-works/works/shopping_cart/" target="_blank">
+                                        <i class="fas fa-link" title="直接看!" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                    <a class="icon" href="https://github.com/Laio08051226/iii-practice-works/blob/main/works/shopping_cart/index.html" target="_blank">
+                                        <i class="fab fa-github" title="Github原始碼" style="width: 100%; font-size: 1.4rem; color: #1b3039; text-align: center;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about_area" id="about_area">
+                <p class="bg_mark">ABOUTME</p>
+                <div class="name_card d-flex">
+                    <div class="left">
+                        <!-- <a href="https://github.com/Laio08051226" target="_black">
+                            <i class="fab fa-github-alt" style="font-size: 24px;" title="github"></i>
+                        </a> -->
+                        <div class="pic">
+                            <a href="https://github.com/Laio08051226" target="_black">
+                                <i class="fab fa-github-alt" style="font-size: 24px;" title="github"></i>
+                            </a>
+                            <img src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.0-9/99427601_3076746732345552_2464168375761240064_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=QHAsEKJLTgEAX95jFjk&_nc_ht=scontent.ftpe8-3.fna&oh=71ed30e94186573047d1918c1f240880&oe=60812876" alt="">
+                        </div>
+                        <div class="text">
+                            <p>謝謝您願意點近來觀看，並花時間欣賞到這邊，若想查看更詳細的個人經歷，可至<a href="https://pda.104.com.tw/profile/share/5bYmWsW3w9Zpr4jttuTtZkY0sPQxFBLN" target="_blank" style="text-decoration: none;">個人履歷</a>做查看。</p>
+                            <p>聯絡資訊</p>
+                            <ul style="list-style: none;">
+                                <li><i class="far fa-envelope" style="margin-right: 10px;"></i>rao418065@gmail.com</li>
+                                <li><i class="fas fa-phone" style="margin-right: 10px;"></i>0988730457</li>
+                                <!-- <li>SCSS</li>
+                                <li>Redux</li>
+                                <li>Vue</li> -->
+                            </ul>
+                            <div class="btn_group d-flex justify-content-evenly">
+                                <a class="button" id="front">前端</a>
+                                <a class="button" id="back">後端</a>
+                                <a class="button" id="database">資料庫</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="skill">
+                            <div class="front">
+                                <h2>前端技能</h2>
+                                <ol>
+                                    <li>HTML/CSS3</li>
+                                    <li>JS/jQuery</li>
+                                    <li>React</li>
+                                </ol>
+                            </div>
+                            <div class="back">
+                                <h2>後端技能</h2>
+                                <ol>
+                                    <li>PHP</li>
+                                    <li>Node.js(Express)</li>
+                                </ol>
+                            </div>
+                            <div class="database">
+                                <h2>資料庫及其他</h2>
+                                <ol>
+                                    <li>MySQL</li>
+                                    <li>mongoDB</li>
+                                    <li>Git/github</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer">
+                    <!-- <div class="other">
+                        <i class="far fa-envelope"><span style="margin-left: 5px;">rao418065@gmail.com</span></i>
+                    </div> -->
+                    <p>Laio's Portfolio © 2021 Copyright</p>
+                </div>
+            </footer>
+        </main>
+    <!-- </main> -->
+    <script src="./public/javascripts/jquery-3.3.1.js"></script>
+    <script src="./public/javascripts/popper.js"></script>
+    <script src="./public/javascripts/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

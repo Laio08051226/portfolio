@@ -1,0 +1,296 @@
+@font-face {
+    font-family: jf-openhuninn;
+    src: url('./jf-openhuninn-1.1.ttf')
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    height: 3000px;
+    font-family: jf-openhuninn,'Ubuntu', sans-serif;
+    background-color: #fafbfc;
+}
+.navbar-top {
+    background: #1b3039;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.5);
+}
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/public/images/lake.jpg) center ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.banner .title {
+    position: absolute;
+       top: 50%;
+    right: calc(50% - 210px);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.bi-arrow-down-circle {
+    cursor: pointer;
+    position: absolute;
+    right: 48%;
+    bottom: 10%;
+    color: #ccc;
+    animation: animate 0.8s ease-in-out 0s infinite alternate;
+}
+.bi-arrow-down-circle:hover {
+    color: white;
+}
+.project_area {
+    /* height: 620px; */
+    min-height: 650px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fafbfc;
+}
+.project_area .project h2 {
+    margin: 60px 0 30px 0;
+    text-align: center;
+}
+
+.project .wrapper .project_box {
+    min-width: 400px;
+    height: 310px;
+    border: 1px solid rgba(0,0,0,0.15);
+    margin: 50px 10px;
+    background-color: white;
+    border-radius: 6px;
+    transition: .5s;
+    overflow: hidden;
+}
+.project .wrapper .project_box:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    transform: translateY(-5px);
+    height: 450px;
+}
+.project .wrapper .project_box figure {
+    width: 480px;
+    height: 250px;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+.project .wrapper .project_box figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project .wrapper .project_box .text {
+    margin: 0 15px;
+}
+.project .wrapper .project_box .text span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+.project .wrapper .project_box .text .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.project .wrapper .project_box .text .icon:hover {
+    transform: translateY(-5px);
+}
+.project .wrapper .project_box .info {
+    margin: 8px 25px;
+}
+
+.practice_area {
+    min-height: 620px;
+    border-top: 20px solid #445963;
+}
+
+.practice_area .practice h2 {
+    margin: 60px 0 30px 0;
+    text-align: center;
+}
+.practice_area .practice .wrapper .practice_box {
+    /* border: 1px solid black; */
+    width: 55%;
+    min-width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.practice_area .practice .wrapper .practice_box > :first-child {
+    margin-right: -3%;
+}
+.practice_area .practice .wrapper .practice_box .pic {
+    width: 55%;
+    /* min-width: 300px; */
+    height: 300px;
+}
+.practice_area .practice .wrapper .practice_box .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.practice_area .practice .wrapper .practice_box .text {
+    background: linear-gradient(90deg,rgb(145, 152, 229, 0.5), rgb(23, 102, 234,0.5));
+    width: 50%;
+    padding: 40px 30px;
+    transition: .8s;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+}
+.practice_area .practice .wrapper .practice_box .text:hover {
+    transform: translateX(7px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.practice_area .practice .wrapper .practice_box .text h3 {
+    font-weight: bold;
+}
+.practice_area .practice .wrapper .practice_box .text p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.practice_area .practice .wrapper .practice_box .text .icon_group {
+    display: flex;
+    justify-content:flex-end;
+}
+.practice_area .practice .wrapper .practice_box .text .icon_group .icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    transition: .5s;
+    opacity: 1;
+}
+.practice_area .practice .wrapper .practice_box .text .icon_group .icon:hover {
+    transform: translateY(5px);
+    opacity: 0.7;
+}
+
+/* 關於我的區塊 */
+.about_area {
+    /* height: 600px; */
+    width: 100%;
+    background-color: #d1d1d1;
+    border-top: 20px solid #445963;
+    border-bottom: 20px solid #445963;
+    position: relative;
+    overflow: hidden;
+}
+.about_area .bg_mark {
+    position: absolute;
+    top: 10%;
+    font-size: 300px;
+    color: rgba(0,0,0,0.05);
+}
+.about_area .name_card {
+    width: 300px;
+    padding: 15px 20px;
+    /* max-width: 800px; */
+    min-height: 420px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 6px;
+    transition: .8s;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+/* .name_card 左邊區塊  */
+
+.about_area .name_card .left .pic {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.about_area .name_card .left .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.15);
+    transition: .3s;
+}
+.about_area .name_card .left .pic img:hover {
+    opacity: 0.9;
+}
+
+.about_area .name_card .left .pic .fa-github-alt {
+    position: absolute;
+    right: 9%;
+    top: 7%;
+    transform: rotate(35deg);
+    transition: .5s;
+}
+.about_area .name_card .left .pic .fa-github-alt:hover {
+    transform: scale(1.2);
+    color: #1c313a;
+}
+
+.about_area .name_card .left .text {
+    max-width: 250px;
+}
+
+.about_area .name_card .left .text .btn_group .button {
+    width: 70px;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #1c313a;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    color: #1c313a;
+    transition: .4s;
+    cursor: pointer;
+}
+.about_area .name_card .left .text .btn_group .active {
+    background-color: #1c313a;
+    color: white;
+}
+.about_area .name_card .left .text .btn_group .button:hover {
+    background-color: #1c313a;
+    color: white;
+}
+
+/* .name_card 右邊區塊 */
+.about_area .name_card .right {
+    margin-left: 30px;
+}
+.about_area .name_card .right .skill {
+    width: 400px;
+}
+
+.about_area .name_card .right .skill .database,
+.about_area .name_card .right .skill .front,
+.about_area .name_card .right .skill .back{
+    display: none;
+}
+
+
+.footer {
+    /* height: 50px; */
+    background-color: #718792;
+    color: #fff;
+    text-align: center;
+}
+.footer p {
+    padding: 10px 0;
+}
+@keyframes animate {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+@media screen and (max-width: 800px) {
+    .bi-arrow-down-circle {
+        right: 45%;
+    }
+    .banner .title {
+        font-size: 32px;
+        right: calc(50% - 190px);
+    }
+}
